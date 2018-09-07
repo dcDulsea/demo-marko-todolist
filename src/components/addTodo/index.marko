@@ -1,0 +1,23 @@
+import todoApp from '../../../app'
+
+class {
+  onCreate(){
+    this.state = {
+      todos: todoApp.todos
+    }
+  }
+  handleSubmit(e){
+    e.preventDefault();
+    var newInput = this.getEl("new-todo");
+    var newTodo = newInput.value;
+    todoApp.addTodo(newTodo);
+    console.log(todoApp.todos);
+    this.state.todos = todoApp.todos;
+  }
+}
+
+<form on-submit('handleSubmit')>
+    <input type='text' key="new-todo"/>
+    <button type='submit'>Add to do</button>
+</form>
+<toDoList(state.todos)/>

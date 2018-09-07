@@ -1,0 +1,1 @@
+$_mod.run("/marko-lasso$1.0.0/src/template.marko.js.init");

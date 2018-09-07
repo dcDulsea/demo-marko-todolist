@@ -1,0 +1,7 @@
+.git/
+node_modules/
+dist/
+.cache/
+*.marko.js
+.DS_STORE
+dump.rdb

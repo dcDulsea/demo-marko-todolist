@@ -1,0 +1,17 @@
+{
+  "name": "marko-lasso",
+  "version": "1.0.0",
+  "description": "Sample app: Marko + Lasso",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.6.2",
+    "express": "^4.15.2",
+    "lasso": "^2.11.5",
+    "lasso-marko": "^2.3.0",
+    "marko": "^4.0.0"
+  },
+  "devDependencies": {}
+}
